@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev)",
+      "Bash(gh auth status:*)",
+      "Bash(gh repo create:*)",
+      "Bash(gh repo list:*)",
+      "Bash(git remote:*)",
+      "Bash(git config:*)",
+      "Bash(git credential-manager-core erase:*)",
+      "Bash(cmdkey:*)",
+      "Bash(gh auth login:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(grep:*)",
+      "Bash(VITE_MONTHLY_PLAN_URL=https://pay.hotmart.com/ABC123 VITE_ANNUAL_PLAN_URL=https://pay.hotmart.com/DEF456 npm run build:*)"
+    ]
+  }
+}

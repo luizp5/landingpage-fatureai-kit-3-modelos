@@ -1,0 +1,44 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Meta tags para controle de cache -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    
+    <title>%VITE_PAGE_TITLE%</title>
+    <meta name="description" content="%VITE_PAGE_DESCRIPTION%" />
+    <meta name="author" content="%VITE_COMPANY_NAME%" />
+
+    <!-- Meta tags serão atualizadas dinamicamente pelo DynamicHead -->
+    <meta property="og:title" content="%VITE_PAGE_TITLE%" />
+    <meta property="og:description" content="%VITE_PAGE_DESCRIPTION%" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="%VITE_WHATSAPP_PREVIEW_URL%" />
+    <meta property="og:image:width" content="%VITE_WHATSAPP_PREVIEW_WIDTH%" />
+    <meta property="og:image:height" content="%VITE_WHATSAPP_PREVIEW_HEIGHT%" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="%VITE_PAGE_TITLE%" />
+    <meta name="twitter:description" content="%VITE_PAGE_DESCRIPTION%" />
+    <meta name="twitter:image" content="%VITE_WHATSAPP_PREVIEW_URL%" />
+
+    <!-- Google Fonts - Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="%VITE_FAVICON_URL%" />
+    <link rel="shortcut icon" href="%VITE_FAVICON_URL%" />
+    <link rel="apple-touch-icon" href="%VITE_FAVICON_URL%" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
